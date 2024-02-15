@@ -1,0 +1,55 @@
+@import url(https://db.onlinewebfonts.com/c/0ecca429d3d3616f3407879f72ee874a?family=Founders+Grotesque+X-Cond);
+ @font-face {
+  font-family: Neue Montreal;
+  src: url(assets/NeueMontreal-Regular.ttf);
+ }
+ @font-face {
+  font-family: "Founders Grotesque X-Cond";
+  src: url("https://db.onlinewebfonts.com/t/0ecca429d3d3616f3407879f72ee874a.eot");
+  src: url("https://db.onlinewebfonts.com/t/0ecca429d3d3616f3407879f72ee874a.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/0ecca429d3d3616f3407879f72ee874a.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/0ecca429d3d3616f3407879f72ee874a.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/0ecca429d3d3616f3407879f72ee874a.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/0ecca429d3d3616f3407879f72ee874a.svg#Founders Grotesque X-Cond")format("svg");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+
+.heropart h1{
+font-family: hello2;
+font-family: "Founders Grotesque X-Cond";
+}
+ 
+.eyesimg {
+  background-image: url(assets/Top-Viewbbcbv-1-1440x921.jpg);
+   
+}
+
+@media (max-width: 768px) {
+ 
+  .sm\:navmain{
+
+    height: 10vh;
+    padding: 2vh 1vh;
+    background-color: red;
+    width: 100vw;
+    }
+    .sm\:itdiv{
+      display: none;
+      background-color: pink;
+    }
+    .sm\:herotext{
+      font-size: 1vh;
+      line-height: 1vh;
+      padding: 0;
+    }
+
+   
+}
